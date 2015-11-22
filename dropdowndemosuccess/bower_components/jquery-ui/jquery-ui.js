@@ -5918,6 +5918,8 @@ $.widget("ui.draggable", $.ui.mouse, {
 		if ( $.ui.ddmanager ) {
 			$.ui.ddmanager.current = null;
 		}
+
+		console.log('jquery draggable: destroyed');
 	},
 
 	_mouseCapture: function(event) {
